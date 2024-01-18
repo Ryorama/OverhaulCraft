@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "world_wide_web"
+	group: "63A60DCA99BDD769"
+	id: "3DBA3FA70A0A713A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29940D8BBA89A0DA"]
+			id: "7C2BF7EF6987CF2F"
+			rewards: [{
+				id: "7BF5BA98B9CCB83E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5554EAB0CDF2D6C5"
+					item: "webdisplays:linker"
+					type: "item"
+				}
+				{
+					id: "534D4C61BE3F310E"
+					item: "webdisplays:keyboard"
+					type: "item"
+				}
+			]
+			title: "First Requirements For Use"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C2BF7EF6987CF2F"]
+			id: "21D48954DBF976F3"
+			rewards: [{
+				id: "0870D160B9C18C1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "37DC6498713B4BA0"
+					item: "webdisplays:craftcomp_backlight"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2CE899F96244CCD3"
+					item: "gtceu:steel_foil"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6FAA479EA868AD29"
+					item: "gtceu:mv_emitter"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "048EE21B7A78C91C"
+					item: "gtceu:steel_bolt"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "47016BAAA3DE0A2A"
+					item: "gtceu:gold_fine_wire"
+					type: "item"
+				}
+			]
+			title: "Screen Parts"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["21D48954DBF976F3"]
+			id: "2E5B6BDD6D52CF7D"
+			rewards: [{
+				id: "226E938D582254DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "760A2D192CDD0AC9"
+				item: "webdisplays:screen"
+				type: "item"
+			}]
+			title: "Web Displays"
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "World Wide Web"
+}

@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "race_to_mars"
+	group: "0A38796C37E166F4"
+	id: "4A898CC72D30BAF4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5817FCDCDE0FE24C"]
+			id: "2CD96A79A29E9298"
+			rewards: [{
+				id: "4C9B871BAF85FC27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 64L
+				id: "6C9485BBB5799A81"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Getting A Stockpile of Desh Ingots"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2CD96A79A29E9298"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "36B5EE188C7A5640"
+			tasks: [{
+				id: "21DE532E710092DE"
+				title: "Recycling Your Old Rockets"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CD96A79A29E9298"]
+			icon: "ad_astra:desh_tank"
+			id: "3B3689A2A39C229C"
+			tasks: [{
+				id: "21C88B260C2288D8"
+				title: "Building From Scratch"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B3689A2A39C229C"]
+			id: "317FD14A5785415E"
+			rewards: [{
+				id: "4F56EB1012622020"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6DA6565DFAC6BD50"
+					item: "ad_astra:desh_tank"
+					type: "item"
+				}
+				{
+					id: "759A22E330651A4F"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4633E7D118559A08"
+					item: "gtceu:desh_foil"
+					type: "item"
+				}
+			]
+			title: "Desh Engine, Tanks And Foil"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36B5EE188C7A5640"]
+			id: "18AB2E30983E60FD"
+			rewards: [{
+				id: "74A0213C7CD8BCEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "4B2870BD1639FCD4"
+					item: "gtceu:desh_foil"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "67766773214EF9A1"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			title: "Desh Foil And Plates"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"317FD14A5785415E"
+				"18AB2E30983E60FD"
+			]
+			dependency_requirement: "one_completed"
+			id: "164A10CE8DC8BA33"
+			rewards: [{
+				id: "2D9F4A3BA071C3FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "418F94A8C7836664"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["164A10CE8DC8BA33"]
+			id: "7676DFEFCD91232D"
+			rewards: [{
+				id: "175171F5CDCCF018"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "3D8D592124FBADD1"
+				title: "Visit Mars"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7676DFEFCD91232D"]
+			id: "56BC43BA591B2E0C"
+			rewards: [{
+				id: "7316777EBF86786C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "03865F0C1DFE98EC"
+				item: "ad_astra:raw_ostrum"
+				type: "item"
+			}]
+			title: "Mine Some Ostrum"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["56BC43BA591B2E0C"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_3_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "3F0CD81C157FFCA3"
+			rewards: [{
+				id: "7D24FEAB56D80E41"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "564671B80CFAE656"
+				title: "Continuing The Race"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "The New Space Race"
+}

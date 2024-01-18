@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_first_stage"
+	group: ""
+	id: "7173A75546771F33"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5AD33EE359ABCCB9"]
+			description: ["Now that you are able to convert your Stress Units (SU) into FE, you'll need to craft an energy converter which will allow you to convert your FE energy to EU energy which is used by the majority of the machines in the pack. As you progress, you'll discover more ways of power generation and eventually move away from using KE, maybe even FE to cut down on the amount of time you need to convert energy."]
+			icon: {
+				Count: 1b
+				id: "gtceu:ulv_1a_energy_converter"
+				tag: { }
+			}
+			id: "496E2F745B109133"
+			rewards: [{
+				id: "7BD06179ECA5A766"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3DF9632A83A16DCF"
+				title: "FE To EU Energy Conversion"
+				type: "checkmark"
+			}]
+			title: "FE To EU Energy Conversion"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["594983470DB92EB7"]
+			id: "1C93E51062D39D2B"
+			rewards: [{
+				id: "75A0A44253D0EFA8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E172BD9C11117C1"
+				item: "ad_astra:coal_generator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C93E51062D39D2B"]
+			id: "29D2F93FDAD938DA"
+			rewards: [{
+				id: "726DD175D5C906FD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "467F295A2AB48CD7"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			title: "Steel Cables (FE Energy Transfering)"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["496E2F745B109133"]
+			id: "594983470DB92EB7"
+			rewards: [{
+				id: "06E8721C68D0E682"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "19D2F312D309A754"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			title: "Your First Machine Hull"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C93E51062D39D2B"]
+			id: "56406D79E4DACCD7"
+			rewards: [{
+				id: "2DFD27FB82ABEDF5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CD12F413DE5F5A3"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			title: "The Assembler"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "2E0F1146FA39698E"
+			rewards: [{
+				id: "2832E294943BE80C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CB627D5DF359550"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "4AC3F5E93A187F6B"
+			rewards: [{
+				id: "54775BBC5FE4A2D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5178B1204BA62486"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "0306379CEA4DD050"
+			rewards: [{
+				id: "070C455E2478AF62"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F518A0CFDBE9589"
+				item: "gtceu:lv_extruder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "2541193AEF9B1808"
+			rewards: [{
+				id: "63979573D69A74B7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E1567AA849143BE"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "5FBD21D576334935"
+			rewards: [{
+				id: "3478CF5E5D496DE9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47656596AE24829D"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "5740E9BCC75AF7EB"
+			rewards: [{
+				id: "3F421D0721F46BFC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B60FE210AD263F2"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["594983470DB92EB7"]
+			id: "72C7FFEC84DFE26D"
+			rewards: [
+				{
+					id: "09FA8DD1BEFF29DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6EEBA269E3693FDA"
+					item: "gtceu:universal_fluid_cell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FACEE36F09D2DF2"
+				item: "gtceu:universal_fluid_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "221C5A10111AA497"
+			rewards: [{
+				id: "28A8246D29BD5275"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "699FFA15DF074502"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "6516D32634E3DDBD"
+			rewards: [{
+				id: "4C0E425E64A561D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "5D3669794D754C90"
+					item: "gtceu:cupronickel_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6BFCDB96A33F32F2"
+					item: "gtceu:invar_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "329472FDE23E03AF"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+			]
+			title: "Your First Alloys"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6516D32634E3DDBD"]
+			id: "017DBB9FF417D219"
+			rewards: [
+				{
+					id: "48B1EC6E6FA8317A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "00A947AF64C71628"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "57B4B0F153AF0FDE"
+					item: "gtceu:heatproof_machine_casing"
+					type: "item"
+				}
+				{
+					id: "2E2A8756229B3514"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "4765C970B4F4B438"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+				{
+					id: "27C77C2FCA049EC0"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "76216CA4C98FF677"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "1805707C8E038778"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "79D09B20864651B3"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3D13526BD0A76670"
+					item: "gtceu:lv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2504063DEFBAD7E9"
+					item: "gtceu:cupronickel_coil_block"
+					type: "item"
+				}
+				{
+					id: "38E6030D10DA5EC6"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+			]
+			title: "The Electric Blast Furnace"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56406D79E4DACCD7"]
+			id: "3A44BF6D109F6A4C"
+			rewards: [{
+				id: "6C569DD14EE1D5E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C2691209D6B48EA"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["017DBB9FF417D219"]
+			id: "5727B6AAB34565AB"
+			rewards: [{
+				id: "004A5AD120FF16E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3016337DB1851602"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5727B6AAB34565AB"]
+			id: "0FCCB72B4937BCDC"
+			rewards: [{
+				id: "63E3BF022F79C4AB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "33475507039DA8F9"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "From LV to MV"
+			x: 13.5d
+			y: 0.0d
+		}
+	]
+	title: "The First Stage"
+}

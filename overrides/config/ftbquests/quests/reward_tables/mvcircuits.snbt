@@ -1,0 +1,10 @@
+{
+	id: "719FA9DB3148F25A"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "gtceu:good_electronic_circuit" }
+		{ item: "gtceu:good_integrated_circuit" }
+	]
+	title: "MVCircuits"
+}

@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_new_space_race_pt_2"
+	group: "0A38796C37E166F4"
+	id: "5FA941CB2DC8FC75"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F0CD81C157FFCA3"]
+			id: "277A56D090091FED"
+			rewards: [{
+				id: "53806B56620AF208"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 64L
+				id: "07E30E2DBEBE4A4A"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Getting A Stockpile of Ostrum Ingots"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277A56D090091FED"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "40DBBE874DB4FCA7"
+			tasks: [{
+				id: "3A30264D7D46DB12"
+				title: "Recycling Again"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["277A56D090091FED"]
+			icon: "ad_astra:ostrum_tank"
+			id: "091B8000F492E79A"
+			tasks: [{
+				id: "0910F0B57C89CFA2"
+				title: "Going The Hard Way"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["40DBBE874DB4FCA7"]
+			id: "49F74A5144AC453F"
+			rewards: [{
+				id: "441A53DB0EF0F996"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 32L
+					id: "0D1BFA0103595842"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "73AAB5238AA9BF14"
+					item: "gtceu:ostrum_foil"
+					type: "item"
+				}
+			]
+			title: "Ostrum Foil And Plates"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["091B8000F492E79A"]
+			id: "7A3CFDBE60C13A5E"
+			rewards: [{
+				id: "2EBF145C19245EAB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7FDFD84F01E0AC6C"
+					item: "ad_astra:ostrum_tank"
+					type: "item"
+				}
+				{
+					id: "2C98566256ABE767"
+					item: "ad_astra:ostrum_engine"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "402A7C49D4119254"
+					item: "gtceu:ostrum_foil"
+					type: "item"
+				}
+			]
+			title: "Ostrum Engine, Tanks And Foil"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7A3CFDBE60C13A5E"
+				"49F74A5144AC453F"
+			]
+			dependency_requirement: "one_completed"
+			id: "677AAA28DE0CBE82"
+			rewards: [{
+				id: "6EFCEF64627A73A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E799BEE6D027C0C"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AB1BC90E27E64A6"]
+			id: "6E3909AF199D3CF2"
+			rewards: [{
+				id: "62C123ADD00AB6BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3287417F917E194E"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "Making Better Fuel"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3909AF199D3CF2"]
+			id: "7BE19212D6FFCBC0"
+			rewards: [{
+				id: "5484BA1AE8F4F620"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5D7F49BAD5627ABF"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "004AB2A942A72648"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "549F0B8BA4C2AD73"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "508193D02043BC9D"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fireproof Spacesuit"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BE19212D6FFCBC0"]
+			icon: "ad_astra:venus_globe"
+			id: "40568645EE3B1044"
+			rewards: [{
+				id: "117665D763361E98"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "1736833F0C283616"
+				title: "Visit Venus"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BE19212D6FFCBC0"]
+			icon: "ad_astra:mercury_globe"
+			id: "2D511C1F57AD9068"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "29706673FFE490D0"
+				title: "Visit Mercury"
+				type: "dimension"
+			}]
+			title: "Visit Mercury"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40568645EE3B1044"]
+			id: "6D890B89CCC7F1AF"
+			rewards: [{
+				id: "444D9E55F33BAF18"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "6CA2EC56BD2B6BFF"
+				item: "ad_astra:raw_calorite"
+				type: "item"
+			}]
+			title: "Mine Some Calorite"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["677AAA28DE0CBE82"]
+			icon: "gtceu:cryo_freezer"
+			id: "0AB1BC90E27E64A6"
+			rewards: [{
+				id: "164719A784D06183"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5927F4672B73F9F3"
+					item: "gtceu:cryo_freezer"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "3E130A64CBE0128B"
+					item: "gtceu_tstp:ostrum_machine_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1B6F9D29D18130D3"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "781F1DC0B6E4DB91"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "503D9EAF935D6952"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "1AD79B9A7328FDAB"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "0573B8C021FFB618"
+					item: "gtceu:hv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "784F4EFAA1B36875"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "45F2F2DBF975A3BE"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+			]
+			title: "The Cryo Freezer"
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "The New Space Race Pt. 2"
+}

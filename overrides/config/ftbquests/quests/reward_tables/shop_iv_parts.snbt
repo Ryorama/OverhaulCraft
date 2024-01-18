@@ -1,0 +1,42 @@
+{
+	id: "1C1088FD5AFA77DD"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "gtceu:iv_centrifuge" }
+		{ item: "gtceu:iv_macerator" }
+		{ item: "gtceu:iv_mixer" }
+		{ item: "gtceu:iv_extractor" }
+		{ item: "gtceu:iv_extruder" }
+		{ item: "gtceu:iv_lathe" }
+		{ item: "gtceu:iv_forge_hammer" }
+		{ item: "gtceu:iv_chemical_bath" }
+		{ item: "gtceu:iv_chemical_reactor" }
+		{ item: "gtceu:iv_arc_furnace" }
+		{ item: "gtceu:iv_assembler" }
+		{ item: "gtceu:iv_circuit_assembler" }
+		{ item: "gtceu:iv_bender" }
+		{ item: "gtceu:iv_electrolyzer" }
+		{ item: "gtceu:iv_wiremill" }
+		{ item: "gtceu:iv_cutter" }
+		{ item: "gtceu:iv_polarizer" }
+		{ item: "gtceu:iv_laser_engraver" }
+		{ item: "gtceu:iv_fluid_solidifier" }
+		{ item: "gtceu:iv_alloy_smelter" }
+		{ item: "gtceu:iv_quantum_tank" }
+		{ item: "gtceu:iv_quantum_chest" }
+		{ item: "gtceu:iv_input_bus" }
+		{ item: "gtceu:iv_output_bus" }
+		{ item: "gtceu:iv_input_hatch" }
+		{ item: "gtceu:iv_output_hatch" }
+		{ item: "gtceu:iv_muffler_hatch" }
+		{ item: "gtceu:iv_energy_input_hatch" }
+		{ item: "gtceu:iv_diode" }
+		{ item: "gtceu:iv_1a_energy_converter" }
+		{ item: "gtceu:iv_4a_energy_converter" }
+		{ item: "gtceu:iv_8a_energy_converter" }
+		{ item: "gtceu:iv_16a_energy_converter" }
+		{ item: "gtceu:iv_compressor" }
+	]
+	title: "ShopIVMachines"
+}

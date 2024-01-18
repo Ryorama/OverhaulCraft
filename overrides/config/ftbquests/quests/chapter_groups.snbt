@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "63A60DCA99BDD769", title: "MV Chaos" }
+		{ id: "30B40EB802A2BB6C", title: "HV Shenanigans" }
+		{ id: "0A38796C37E166F4", title: "EV Brain Damage" }
+		{ id: "674688166E834007", title: "IV Why Am I Still Playing" }
+	]
+}

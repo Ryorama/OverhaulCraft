@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "gtceu_tstp:block/ostrum_machine_casing"
+  }
+}

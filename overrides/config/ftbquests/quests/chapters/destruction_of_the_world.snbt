@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "destruction_of_the_world"
+	group: "30B40EB802A2BB6C"
+	id: "33BA694CE88363BD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["05A649E0A977215F"]
+			id: "3C1AAA9792FCB77C"
+			rewards: [{
+				id: "581BF854B07D2A31"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A4D6CED853C6813"
+				item: "ballistix:missilesilo"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C1AAA9792FCB77C"]
+			id: "60C60FCF591C4EAC"
+			tasks: [{
+				id: "006D20D0AF3EC1CE"
+				item: {
+					Count: 1b
+					id: "ballistix:laserdesignator"
+					tag: {
+						currentbattery: {
+							Count: 1b
+							id: "electrodynamics:battery"
+						}
+						joules: 1666666.0d
+						maximumcapacity: 1666666.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "Portable Detonation"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60C60FCF591C4EAC"]
+			id: "3C94D9632464798B"
+			rewards: [{
+				id: "02F64025C435E1A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "608C99BB8CD8114D"
+				item: "ballistix:obsidian"
+				type: "item"
+			}]
+			title: "Explosives"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C94D9632464798B"]
+			id: "2AB9D082F8C69E84"
+			tasks: [{
+				id: "6A898E3621CC8309"
+				item: "ballistix:missilecloserange"
+				type: "item"
+			}]
+			title: "Your First Missile"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Destruction Of The World"
+}

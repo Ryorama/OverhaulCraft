@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gun_making"
+	group: "63A60DCA99BDD769"
+	id: "01144C606DE7B846"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3BBD13EC78A76AD6"]
+			id: "4C454BB37C6B3AE5"
+			rewards: [{
+				id: "3E7C293791039DCF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "21B97B74C57B3440"
+					item: "immersiveengineering:empty_casing"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "614882245C1DA6BE"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3E9E4B49859615AA"
+					item: "cgm:basic_bullet"
+					type: "item"
+				}
+			]
+			title: "Basic Bullets"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C454BB37C6B3AE5"]
+			id: "2B06B4701E6086B2"
+			rewards: [{
+				id: "7848F4524C5D1E75"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "338D6B3E6E922910"
+					item: "gtceu:steel_foil"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2CE9CC6019A8F6CC"
+					item: "gtceu:steel_small_spring"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "30FC6433AA8FE98A"
+					item: "gtceu:steel_rod"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3128791D75C2A352"
+					item: "gtceu:steel_bolt"
+					type: "item"
+				}
+			]
+			title: "Pistol Components"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B06B4701E6086B2"]
+			id: "04369E41386729ED"
+			rewards: [
+				{
+					id: "3A8B4F27359FBF25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 32
+					id: "3AA3F89CAD93F8F0"
+					item: "cgm:basic_bullet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75FC67A3F846D389"
+				item: {
+					Count: 1b
+					id: "cgm:pistol"
+					tag: {
+						AmmoCount: 16
+					}
+				}
+				type: "item"
+			}]
+			title: "Your First Gun | The Pistol"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04369E41386729ED"]
+			id: "751E2EAF1BF27FF3"
+			rewards: [{
+				id: "72DC399C111F0C05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "001120A309C75DB0"
+				item: "cgm:shell"
+				type: "item"
+			}]
+			title: "Shells"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["751E2EAF1BF27FF3"]
+			id: "6BAC48055C4E9A99"
+			rewards: [
+				{
+					id: "0E568F4950BCA135"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "334530912B07A478"
+					item: "cgm:shell"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E936A53556ED342"
+				item: {
+					Count: 1b
+					id: "cgm:shotgun"
+					tag: {
+						AmmoCount: 8
+					}
+				}
+				type: "item"
+			}]
+			title: "The Shotgun"
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+	title: "Basic Gun Making"
+}

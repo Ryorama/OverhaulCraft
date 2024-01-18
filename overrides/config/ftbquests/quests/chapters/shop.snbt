@@ -1,0 +1,1743 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: ""
+	icon: "createdeco:gold_coin"
+	id: "6062F72D3FF3BE26"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "0CF66EA33FC5BFA1"
+			rewards: [{
+				id: "06D6F6872F2124AA"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "49A844285966A70B"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "64x Dirt For Money"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "7A8E6BC508BEE81B"
+			rewards: [{
+				count: 2
+				id: "3EBF36663A8659C0"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1300EDC8018FDAF1"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "64x Cobblestone For Money"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "5F7F5DF444C20B78"
+			rewards: [{
+				count: 4
+				id: "1794E54C8ABEE45B"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7932B93913F40709"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "64x Logs For Money"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "50F2CC925BB9F17F"
+			rewards: [{
+				id: "43E33BCFF54DD3FA"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "03BB9D72DEE28A11"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "Iron To Gold"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "27D77746A4CB449E"
+			rewards: [{
+				id: "449F7D0B9E09CBCE"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6183292581E05084"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "Copper To Iron"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "64FA2B9445084C1B"
+			rewards: [{
+				count: 5
+				id: "2904A869E4750238"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "24BE11CD4D5EB752"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Gold To Iron"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "6A49CC97ABCF901F"
+			rewards: [{
+				count: 5
+				id: "0EC42D710320324B"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0875FAF42851C570"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "Iron To Copper"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "45EA0516DBE59CFE"
+			rewards: [{
+				count: 2
+				id: "528D896C5697E41E"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1CA3E9AAEC7C5033"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/iron"
+					}
+				}
+				title: "Any #forge:raw_materials/iron"
+				type: "item"
+			}]
+			title: "4x Raw Iron For Money"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "33CF853E4A98205A"
+			rewards: [{
+				id: "6B6DDB465AF6D5EA"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "70BF3E06FF5A9C8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/copper"
+					}
+				}
+				title: "Any #forge:raw_materials/copper"
+				type: "item"
+			}]
+			title: "4x Raw Copper For Money"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "2E1BD7A5B1B85E92"
+			rewards: [{
+				count: 4
+				id: "600FEEB8E396EAEC"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "03821FC9829C4C6B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/gold"
+					}
+				}
+				title: "4x Raw Gold"
+				type: "item"
+			}]
+			title: "4x Raw Gold For Money"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72FD7119E8D0CB15"]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "576F67D0CE1D03E3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25953E9CBAFBDABE"
+				table_id: 5679757258545895895L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "27C52344DE8BA424"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Basic Electronic Cirtuit"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["109A7B4C50D87A34"]
+			icon: "gtceu:good_electronic_circuit"
+			id: "598C322F5B054937"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55EE9A7C35BC5A9A"
+				table_id: 8187449406472647258L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "127C08EC35171C54"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Good Electronic Circuit"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05E7073A781CDCF5"]
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "2C8756325AFC9A97"
+			rewards: [{
+				id: "18C6E2570F4E60AC"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "67ECCE4171ECF645"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Advanced Integrated Circuit"
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A1289FA1941F985"]
+			icon: "gtceu:steel_ingot"
+			id: "4D8D033DD807078B"
+			rewards: [{
+				count: 4
+				id: "45505F83190CB416"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "410E8D71735751B8"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Steel Ingot"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E3407825E772487"]
+			icon: "gtceu:red_alloy_ingot"
+			id: "53711D68D946DA4D"
+			rewards: [{
+				count: 4
+				id: "5BE5C6A13FDAC843"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1F4A63048995ADE3"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Red Alloy Ingot"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["381320E650C092CD"]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "3DAE6826974085F3"
+			rewards: [{
+				count: 4
+				id: "02AF23F0214737A7"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "12EA52AEE3C0E12A"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Wrought Iron Ingot"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41603A5B6900385C"]
+			icon: "gtceu:firebrick"
+			id: "1A0624E2F2B12E13"
+			rewards: [{
+				count: 4
+				id: "311096AB2F67E3FE"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5A61950D2CDE9391"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Firebrick"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6516D32634E3DDBD"]
+			icon: "gtceu:cupronickel_ingot"
+			id: "66B2667B13B32E59"
+			rewards: [{
+				count: 4
+				id: "061EE4BF58C45E07"
+				item: "gtceu:cupronickel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00331B37DA9CDBA8"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Cupronickel Ingot"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6516D32634E3DDBD"]
+			icon: "gtceu:bronze_ingot"
+			id: "3DBFB439B3F1E6F9"
+			rewards: [{
+				count: 4
+				id: "4A60EE3082AFCBFB"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6E1899E1CC070FD4"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Bronze Ingot"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6516D32634E3DDBD"]
+			icon: "gtceu:invar_ingot"
+			id: "09A65544E04D0973"
+			rewards: [{
+				count: 4
+				id: "0870FDD85EE738E5"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "16037AF2941150E1"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Invar Ingot"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			icon: "create:andesite_alloy"
+			id: "14A1D68415454558"
+			rewards: [{
+				count: 4
+				id: "3FD66889C3846AE1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "02CB1CD9A0F7FF45"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Andesite Alloy"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5727B6AAB34565AB"]
+			icon: "gtceu:aluminium_ingot"
+			id: "6CC815A42BEAB397"
+			rewards: [{
+				count: 4
+				id: "66173A52E0442968"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "61451E7325E79023"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Aluminium Ingot"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52A333BCCA800724"]
+			icon: "gtceu:electrum_ingot"
+			id: "2899DEA15D519A2E"
+			rewards: [{
+				count: 4
+				id: "6C4461C7BF273BFE"
+				item: "gtceu:electrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "20F9C5FA2268181E"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Electrum Ingot"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52A333BCCA800724"]
+			icon: "gtceu:annealed_copper_ingot"
+			id: "554339E02200675D"
+			rewards: [{
+				count: 4
+				id: "49366B4C562C78A4"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3E63E74D0C153FE6"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Annealed Copper Ingot"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["231042D5B7E26AAB"]
+			icon: "gtceu:silicon_ingot"
+			id: "5137EF57BB9B9904"
+			rewards: [{
+				count: 4
+				id: "5F0A762EBA7500FA"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "72A7847E4AEDC26B"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Silicon Ingot"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52A06E1EE8525119"]
+			icon: "gtceu:stainless_steel_ingot"
+			id: "4EDFA9880589BF1E"
+			rewards: [{
+				count: 4
+				id: "0495AD848992FFAC"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2AF2077D36CB0477"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Stainless Steel Ingot"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "637F0A83364E55A6"
+			rewards: [{
+				count: 3
+				id: "47331DCC7A13CC03"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7B035F9A50755ACE"
+				item: "minecraft:cobbled_deepslate"
+				type: "item"
+			}]
+			title: "64x Cobbled Deepslate For Money"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "29312BADB4624517"
+			rewards: [{
+				count: 4
+				id: "110E75178B40E240"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "38CA4FCBD05C783B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:coals"
+					}
+				}
+				title: "Any #minecraft:coals"
+				type: "item"
+			}]
+			title: "4x Coal For Money"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:raw_iron"
+			id: "458ABE1BC5FEC326"
+			rewards: [{
+				count: 4
+				id: "1F48B76D3BDBB39F"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "037032262F0CB31A"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Raw Iron"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:raw_copper"
+			id: "195C9BEEB1E5C8F8"
+			rewards: [{
+				count: 4
+				id: "46F8DCCC91BC65D4"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "036B45B7D5DF8AD7"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Raw Copper"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:raw_gold"
+			id: "6FBC42E9A02A3570"
+			rewards: [{
+				count: 4
+				id: "50D4B22E1034FF70"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "47E263B16CBC42E0"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Raw Gold"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:coal"
+			id: "576E2C8FC2AD532E"
+			rewards: [{
+				count: 4
+				id: "59E3E841FB872857"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "47CBED91BAB8C477"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Coal"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:redstone"
+			id: "3B2ED2523A4BBB6A"
+			rewards: [{
+				count: 16
+				id: "7D7171AC857F6C23"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2164515243BB3C20"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "16x Redstone Dust"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:raw_tin"
+			id: "19268673C986C2E1"
+			rewards: [{
+				count: 4
+				id: "041D7371AB564EB8"
+				item: "gtceu:raw_tin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "34ED7383F298D3D8"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Raw Tin"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3765682E8CF67C64"]
+			icon: "gtceu:blue_alloy_ingot"
+			id: "57DFC2193D69C840"
+			rewards: [{
+				count: 4
+				id: "302D742A571C491A"
+				item: "gtceu:blue_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "006775B956EF9299"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Blue Alloy Ingot"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["109A7B4C50D87A34"]
+			icon: "gtceu:polyethylene_ingot"
+			id: "647827B867B36F69"
+			rewards: [{
+				count: 4
+				id: "528B14992B247E17"
+				item: "gtceu:polyethylene_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6B24DFF92AA9D13B"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Polyethylene Ingot"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AD89C54A71AECD2"]
+			icon: "gtceu:titanium_ingot"
+			id: "5E3CB45C32E28BBF"
+			rewards: [{
+				count: 4
+				id: "4D72A2662383128C"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "27AC5158D20681D6"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Titanium Ingot"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6AD89C54A71AECD2"]
+			icon: "gtceu:magnesium_dust"
+			id: "5A18ECA5B36C2D7E"
+			rewards: [{
+				count: 8
+				id: "2FB729DA6206178C"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3B92947B40CE67C1"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "8x Magnesium Dust"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["694FC609094C23EC"]
+			icon: "gtceu:micro_processor_computer"
+			id: "6A33CAA51793BB29"
+			rewards: [{
+				id: "1D7BF224C66D090E"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 7L
+				id: "12A640A3E8AECEDC"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Microprocessor Supercomputer"
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["39EA1AFCEF6034B1"]
+			icon: "gtceu:micro_processor"
+			id: "4127D62BCCC32CED"
+			rewards: [{
+				id: "1C0120B560F53BE4"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2E7AB72BE4CC9C96"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Microprocessor"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["779AFFB8BE3B2312"]
+			icon: "gtceu:micro_processor_assembly"
+			id: "1C7F861F6A756A9C"
+			rewards: [{
+				id: "4A15275F178DF9EC"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "0EE5230AAA99754A"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Microprocessor Assembly"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["682C0B15B99A69AF"]
+			icon: "gtceu:kanthal_ingot"
+			id: "2C9EB39310519F71"
+			rewards: [{
+				count: 4
+				id: "0DF500E73311C446"
+				item: "gtceu:kanthal_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7C8E4DDB2315FE2C"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Kanthal Ingot"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["682C0B15B99A69AF"]
+			icon: "gtceu:nichrome_ingot"
+			id: "57712B0547A3AC19"
+			rewards: [{
+				count: 4
+				id: "04AB7C1D9292A507"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "038A416803A2D723"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Nichrome Ingot"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:raw_nickel"
+			id: "31068B6A6E09EAB0"
+			rewards: [{
+				count: 4
+				id: "69033E59FDCF1C59"
+				item: "gtceu:raw_nickel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1BAB4C224628BDAB"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Raw Nickel"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72FD7119E8D0CB15"]
+			icon: "gtceu:lv_electric_motor"
+			id: "6FE9539B04150C85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C8E4EA36EA35A15"
+				table_id: 4610261866750588300L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "153C84EF1DCEAC61"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "LV Machine Parts"
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["109A7B4C50D87A34"]
+			icon: "gtceu:mv_electric_motor"
+			id: "2C04AEE19FE0DB98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F81DDDA6135BD60"
+				table_id: 6644526877359805567L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "2B51B74578262578"
+					item: "createdeco:gold_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "37570241ED342C26"
+					item: "createdeco:iron_coin"
+					type: "item"
+				}
+			]
+			title: "MV Machine Parts"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05E7073A781CDCF5"]
+			icon: "gtceu:hv_electric_motor"
+			id: "6316C41331DAAF4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "306692269EE2D397"
+				table_id: 7340745537750390840L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6BB8B8F02303CB38"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "HV Machine Parts"
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["694FC609094C23EC"]
+			icon: "gtceu:ev_electric_motor"
+			id: "4415C349CD8D0990"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E6F4FF19D856C1C"
+				table_id: 4508798017550234662L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "49223474E47FFD21"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "EV Machine Parts"
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:sticky_resin"
+			id: "6405CF6B563F5262"
+			rewards: [{
+				count: 4
+				id: "1231D9CE69EB12D5"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "32A9D606EEB2BFC1"
+				item: "createdeco:copper_coin"
+				type: "item"
+			}]
+			title: "4x Sticky Resin"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["594983470DB92EB7"]
+			icon: "gtceu:lv_machine_hull"
+			id: "46D81C8A8334D6C8"
+			rewards: [{
+				id: "7190309852C70185"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D04EBAAA4A2D39F"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "LV Machine Hull"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FCCB72B4937BCDC"]
+			icon: "gtceu:mv_machine_hull"
+			id: "046CDF05157E3B89"
+			rewards: [{
+				id: "77759E4BCBBDA009"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6670E06FC6F0EE84"
+					item: "createdeco:gold_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "4691F7B5382B1DA7"
+					item: "createdeco:iron_coin"
+					type: "item"
+				}
+			]
+			title: "MV Machine Hull"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5C1EC822CA045E0C"]
+			icon: "gtceu:hv_machine_hull"
+			id: "77DDF1DAAADC220C"
+			rewards: [{
+				id: "5301A74A7296237D"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "14EB6F9E236EB26F"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "HV Machine Hull"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D56B158012DDE5D"]
+			icon: "gtceu:ev_machine_hull"
+			id: "64BDC40E36AFAE82"
+			rewards: [{
+				id: "346A560240242FA9"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1109BD92F6C465AC"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "EV Machine Hull"
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["594983470DB92EB7"]
+			icon: "gtceu:lv_machine_casing"
+			id: "5A44458B78241ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "757B09F1A526190C"
+				table_id: 2474650413270216429L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "369077CBC8CE29FC"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "LV Machines"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0FCCB72B4937BCDC"]
+			icon: "gtceu:mv_machine_casing"
+			id: "4E201F5B51BDB098"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C16952F770A0536"
+				table_id: 20971898646921308L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1C73312C3ABD09C1"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "MV Machines"
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5C1EC822CA045E0C"]
+			icon: "gtceu:hv_machine_casing"
+			id: "442C9F5CB9831967"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E0E88FB2343CB82"
+				table_id: 693821210053253895L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "194E8740FE53116A"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "HV Machines"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6D56B158012DDE5D"]
+			icon: "gtceu:ev_machine_casing"
+			id: "46FA374EFE309246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79A53350EBD03734"
+				table_id: 6086295298057122578L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "713FD8FB165ACE63"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "EV Machines"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["109A7B4C50D87A34"]
+			icon: "gtceu:gallium_arsenide_dust"
+			id: "4E631EB6592F0E18"
+			rewards: [{
+				count: 4
+				id: "514EEC7A8A9C8F92"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "25AFF5CACB882EE4"
+				item: "createdeco:iron_coin"
+				type: "item"
+			}]
+			title: "4x Gallium Arsenide Dust"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1790FD7E4EA14294"]
+			icon: "gtceu:micro_processor_mainframe"
+			id: "044DD6F418A26DA6"
+			rewards: [{
+				id: "60D71138197BCD9A"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "404EE226A7BE9C12"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "Microprocessor Mainframe"
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["62626BFAE562E51A"]
+			icon: "gtceu:polytetrafluoroethylene_ingot"
+			id: "0273AFEA7BDF7185"
+			rewards: [{
+				count: 4
+				id: "5354AB403CE9062C"
+				item: "gtceu:polytetrafluoroethylene_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "02684260D2170911"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Polytetrafluoroethylene Ingot"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5841BF9EA4B8F3B3"]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "4EFD668A4E34DE46"
+			rewards: [{
+				count: 4
+				id: "6220B72B9E14619A"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "07B28BA9CF33F8AB"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "4x Tungstensteel Ingot"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1790FD7E4EA14294"]
+			icon: "gtceu:iv_electric_motor"
+			id: "453D684322B70A48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "417B1F5EF9553CB0"
+				table_id: 6417185616765856417L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "177C53F2F5D01154"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "IV Machine Parts"
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["15B23A48138890E2"]
+			icon: "gtceu:iv_machine_hull"
+			id: "76B0BDD22BAF694F"
+			rewards: [{
+				id: "67E2E0F8391B4528"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0100AB9F25F90F2C"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "IV Machine Hull"
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1790FD7E4EA14294"]
+			icon: "gtceu:iv_machine_casing"
+			id: "19F9D5D8250148E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65B7A4CB72AFED07"
+				table_id: 2022266854423820253L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "10B8C423858634FF"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			title: "IV Machines"
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["72FD7119E8D0CB15"]
+			id: "131198A3FBBAB588"
+			rewards: [{
+				id: "54432FF7C9E941DC"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "01A8EF0BC1E739EB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:circuits/lv"
+					}
+				}
+				title: "Any #forge:circuits/lv"
+				type: "item"
+			}]
+			title: "Sell Basic Electronic Circuits"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["109A7B4C50D87A34"]
+			id: "7EBB499D3EE969D4"
+			rewards: [{
+				count: 3
+				id: "42D72F57A9C4F0BB"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "36B1D52447FDB1AA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:circuits/mv"
+					}
+				}
+				title: "Any #forge:circuits/mv"
+				type: "item"
+			}]
+			title: "Sell Good Electronic Circuits"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["05E7073A781CDCF5"]
+			id: "63BA372AA74E0D30"
+			rewards: [{
+				count: 6
+				id: "24B7FC4343DE759B"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C63304D2AB9D373"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:circuits/hv"
+					}
+				}
+				title: "Any #forge:circuits/hv"
+				type: "item"
+			}]
+			title: "Sell Advanced Integrated Circuits"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["694FC609094C23EC"]
+			id: "1018BDE3550482CE"
+			rewards: [{
+				count: 8
+				id: "469FBBB47751CC12"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5452AA0D5571FE84"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:circuits/ev"
+					}
+				}
+				title: "Any #forge:circuits/ev"
+				type: "item"
+			}]
+			title: "Sell EV Circuits"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1790FD7E4EA14294"]
+			id: "095471E50E36053A"
+			rewards: [{
+				count: 8
+				id: "0179D8943E5CC263"
+				item: "createdeco:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "33776384D6579BF4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:circuits/iv"
+					}
+				}
+				title: "Any #forge:circuits/iv"
+				type: "item"
+			}]
+			title: "Sell IV Circuits"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "create:blaze_burner"
+				tag: { }
+			}
+			id: "6F0A8A3CEADF776E"
+			rewards: [{
+				id: "60044FFCFDE2CB8C"
+				item: {
+					Count: 1b
+					id: "create:blaze_burner"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0A5B2CB86B248329"
+				item: {
+					Count: 1b
+					id: "createdeco:gold_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Blaze Burner"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "create:blaze_cake"
+				tag: { }
+			}
+			id: "44FC22E15307FC0D"
+			rewards: [{
+				count: 4
+				id: "4DD3E8E3C7FE4E39"
+				item: {
+					Count: 1b
+					id: "create:blaze_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "48914286FACAADFE"
+				item: {
+					Count: 1b
+					id: "createdeco:gold_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Blaze Cakes"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "gtceu:raw_lead"
+				tag: { }
+			}
+			id: "0F7988472856273C"
+			rewards: [{
+				count: 4
+				id: "0E1FAD15E3B55879"
+				item: {
+					Count: 1b
+					id: "gtceu:raw_lead"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "17D8C985400DE5DC"
+				item: {
+					Count: 1b
+					id: "createdeco:iron_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "4x Raw Lead"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "geolosys:zinc_cluster"
+				tag: { }
+			}
+			id: "7030F7F11844A8A4"
+			rewards: [{
+				count: 4
+				id: "00ACE8120C1BF140"
+				item: "gtceu:raw_sphalerite"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1ED2B1D1700C50C7"
+				item: {
+					Count: 1b
+					id: "createdeco:iron_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "4x Raw Zinc"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "gtceu:realgar_gem"
+				tag: { }
+			}
+			id: "025413622F030D2B"
+			rewards: [{
+				count: 4
+				id: "52CFCE457EF46A85"
+				item: {
+					Count: 1b
+					id: "gtceu:realgar_gem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5C2C482AC278DF47"
+				item: {
+					Count: 1b
+					id: "createdeco:iron_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "4x Realgar"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "gtceu:raw_silver"
+				tag: { }
+			}
+			id: "511C58C79C0B4B64"
+			rewards: [{
+				count: 4
+				id: "5BEA181A00B45433"
+				item: {
+					Count: 1b
+					id: "gtceu:raw_silver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "09EA0EDE033FB415"
+				item: {
+					Count: 1b
+					id: "createdeco:iron_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "4x Raw Silver"
+			x: 8.0d
+			y: -2.0d
+		}
+	]
+	title: "Shop"
+}

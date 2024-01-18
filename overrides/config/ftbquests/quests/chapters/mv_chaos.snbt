@@ -1,0 +1,636 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mv_chaos"
+	group: "63A60DCA99BDD769"
+	id: "7892C921B39030F2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0FCCB72B4937BCDC"]
+			id: "109A7B4C50D87A34"
+			rewards: [
+				{
+					id: "68074EB19024DBE1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "34C4BC0EC86B14FB"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "476598F6087F782B"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "Basic MV Circuits"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109A7B4C50D87A34"]
+			id: "67A06FBEBB299B24"
+			rewards: [{
+				id: "45765237640C0D92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A9337486B9E6B9C"
+				item: "gtceu:mv_assembler"
+				type: "item"
+			}]
+			title: "Upgraded Assembler"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			id: "682C0B15B99A69AF"
+			rewards: [
+				{
+					id: "3C40F99069B0B07D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "3D87CE3A674C6F82"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F44840E8CB4FAFA"
+					item: "gtceu:mv_extractor"
+					type: "item"
+				}
+				{
+					id: "156720F6D6A9EC56"
+					item: "gtceu:mv_extruder"
+					type: "item"
+				}
+				{
+					id: "12A5DB18D3CC8D2E"
+					item: "gtceu:mv_macerator"
+					type: "item"
+				}
+				{
+					id: "637AC85E6B2C6CEC"
+					item: "gtceu:mv_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "0DCD862EC2EC98B4"
+					item: "gtceu:mv_centrifuge"
+					type: "item"
+				}
+				{
+					id: "566F18D7DC678D9B"
+					item: "gtceu:mv_mixer"
+					type: "item"
+				}
+				{
+					id: "4CDAE9AA86DDFB50"
+					item: "gtceu:mv_wiremill"
+					type: "item"
+				}
+				{
+					id: "3882D2AA53CFF9FC"
+					item: "gtceu:mv_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "0298F72892A40F1F"
+					item: "gtceu:mv_chemical_reactor"
+					type: "item"
+				}
+				{
+					id: "58B61EFA3548E0F4"
+					item: "gtceu:mv_chemical_bath"
+					type: "item"
+				}
+				{
+					id: "32ABEE2577BD3ED1"
+					item: "gtceu:mv_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "48D07BEEC8F3735F"
+					item: "gtceu:mv_alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "3EB2E104441CB04A"
+					item: "gtceu:mv_cutter"
+					type: "item"
+				}
+				{
+					id: "44FF282465A2B1DE"
+					item: "gtceu:mv_laser_engraver"
+					type: "item"
+				}
+			]
+			title: "Advanced Machines"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			icon: {
+				Count: 1b
+				id: "cgm:pistol"
+				tag: {
+					AmmoCount: 16
+				}
+			}
+			id: "3BBD13EC78A76AD6"
+			rewards: [{
+				id: "2687FB3ED39249B7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E09383A58109B3C"
+				title: "Basic Gun Making"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			description: ["Browsing The Web in Minecraft :O"]
+			icon: "webdisplays:screen"
+			id: "29940D8BBA89A0DA"
+			rewards: [{
+				id: "79EE8270A6682908"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1AE1DEA53EC260E3"
+				title: "World Wide Web"
+				type: "checkmark"
+			}]
+			title: "World Wide Web"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			id: "52A333BCCA800724"
+			rewards: [{
+				id: "592E93A6E25F60F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "50BB86ADB8F9DC5E"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+				{
+					id: "64D417AD46A19B49"
+					item: "gtceu:electrum_ingot"
+					type: "item"
+				}
+			]
+			title: "More Alloys"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A333BCCA800724"]
+			description: [
+				"Obtain a Hot Silicon Ingot by smelting 2 Carbon dusts and 1 Silicon Dioxide in an Electric Blast Furnace."
+				""
+				"Silicon Dioxide can be obtained in a few ways, such as electrolyzing sand."
+			]
+			id: "23CC8B98A6130238"
+			rewards: [{
+				id: "0925DEFF78196BE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "049FB7C09B270A6A"
+				item: "gtceu:silicon_hot_ingot"
+				type: "item"
+			}]
+			title: "Silicon - First Step"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23CC8B98A6130238"]
+			description: ["Put your Hot Silicon Ingot into a chemical bath with either normal or distilled water to cool the ingot off."]
+			id: "231042D5B7E26AAB"
+			rewards: [{
+				id: "3B84DB88A006C49D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48CC693F670795DD"
+				item: "gtceu:silicon_ingot"
+				type: "item"
+			}]
+			title: "Silicon - Second Step"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"52A333BCCA800724"
+				"231042D5B7E26AAB"
+			]
+			id: "49E4C2B5BFD80E71"
+			rewards: [{
+				id: "1622D757EE7C0EEA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B5FE7A77E91B5E7"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["49E4C2B5BFD80E71"]
+			id: "484419DDA8AD6E33"
+			rewards: [{
+				id: "0F9CC8AACADA4024"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "2C5247DD14561B98"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			title: "Silicon Waffers"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F8BA841D8FF8689"]
+			id: "1A046A342230D852"
+			rewards: [{
+				id: "5D53A34718977365"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22FCF6C92ECE7D02"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DDF6226A4FB78CC"]
+			id: "568B4659FEB7C9C7"
+			rewards: [{
+				id: "0874A10748050DA3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33F51D5EAD350847"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["568B4659FEB7C9C7"]
+			id: "5B6BAB4CB432BADF"
+			rewards: [{
+				id: "48A750320262D472"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 8L
+				id: "21427C74ED5C5E5F"
+				item: "gtceu:ilc_chip"
+				type: "item"
+			}]
+			title: "IC Chip"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A046A342230D852"]
+			id: "437CB526CCDCE43E"
+			rewards: [{
+				id: "695554762C3AE47C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 32L
+				id: "3419D2C93D688A5D"
+				item: "gtceu:ram_chip"
+				type: "item"
+			}]
+			title: "RAM Chip"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B6BAB4CB432BADF"
+				"437CB526CCDCE43E"
+			]
+			id: "05E7073A781CDCF5"
+			rewards: [{
+				id: "22E33930FAFBC2EC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35B566DA024C9D53"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05E7073A781CDCF5"]
+			id: "52A06E1EE8525119"
+			rewards: [{
+				id: "2056E393ABECABF7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36ABE1D7C5A612FD"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52A06E1EE8525119"]
+			id: "5C1EC822CA045E0C"
+			rewards: [
+				{
+					id: "3867BFBBD89639BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "2E90360979BF9C2F"
+					item: "gtceu:advanced_integrated_circuit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "093A110B2B43CB0D"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			title: "From MV To HV"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05C91C08A69D1784"]
+			icon: "car:oak_body"
+			id: "21693092B90B79CF"
+			rewards: [{
+				id: "794BFB964AD7A6AF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1B5B2063C2BE5CE6"
+				title: "Cars"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05C91C08A69D1784"]
+			icon: "plane:plane_oak"
+			id: "203BDA55A65920ED"
+			rewards: [{
+				id: "231A01B71925D669"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "06409AD6ECFCA143"
+				title: "Planes"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			id: "1C298B2AA588D4CF"
+			rewards: [{
+				id: "3B541C655C4EF7E7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3B1AB9CEF76F6680"
+					item: "car:bio_diesel_bucket"
+					type: "item"
+				}
+				{
+					id: "6E6B1B66E26C1EF0"
+					item: "gtceu:bio_diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "Bio Diesel"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C298B2AA588D4CF"]
+			id: "05C91C08A69D1784"
+			rewards: [{
+				id: "1C676DDB02D215BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "182BDC0611ACFA4E"
+				item: "car:gas_station"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05C91C08A69D1784"]
+			id: "06AD7F99E214072C"
+			rewards: [{
+				id: "1821E961D29BFC11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "1C2EA9E56B0DCAC5"
+				item: "car:asphalt"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06AD7F99E214072C"]
+			id: "44EFC16D4EC21DB1"
+			rewards: [{
+				id: "09B8E982C1CC4216"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5875A3BEFB5FF138"
+					item: {
+						Count: 1b
+						id: "car:painter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61F79F905F98F0E0"
+					item: {
+						Count: 1b
+						id: "car:painter_yellow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Painting Road Markings"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05C91C08A69D1784"]
+			id: "69F53EA6F0CBD2E9"
+			rewards: [{
+				id: "742F498CC59EE353"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7028A5AA5F9AF0E1"
+				item: "car:canister"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			id: "0C6626F2BA284731"
+			rewards: [{
+				id: "51F6314B4E09C032"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "12AE05AEF09C1162"
+				item: "weather2:tornado_siren"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67A06FBEBB299B24"]
+			description: ["No more dying from extreme temputures!"]
+			id: "43AA1FEC05A3BBA4"
+			rewards: [{
+				id: "149CD3FF9C57A7AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54236AFAA9B2A2B8"
+				item: {
+					Count: 1b
+					id: "tstp_content:hvac_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484419DDA8AD6E33"]
+			id: "6F8BA841D8FF8689"
+			rewards: [{
+				id: "676C5E13B4F6AAC8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "386F977B6071ABEA"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484419DDA8AD6E33"]
+			id: "6DDF6226A4FB78CC"
+			rewards: [{
+				id: "6D3ADE15BFDC3DDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "620CD4C57298DFAB"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+	title: "MV Chaos"
+}

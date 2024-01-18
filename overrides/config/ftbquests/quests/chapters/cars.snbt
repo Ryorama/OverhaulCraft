@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cars"
+	group: "63A60DCA99BDD769"
+	id: "26A7545977A024BD"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["21693092B90B79CF"]
+			id: "6084741F9415EA51"
+			rewards: [{
+				id: "369D65DDD2C9ECAA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4E9B158893141768"
+					item: "car:car_workshop_outter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3727342C2640F05D"
+					item: "car:car_workshop"
+					type: "item"
+				}
+			]
+			title: "The Workshop"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6084741F9415EA51"]
+			dependency_requirement: "one_completed"
+			id: "4E7558C2936FD3A3"
+			rewards: [{
+				id: "09774D8C55C641D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2FAA63A4FA38A85C"
+					item: "car:oak_body"
+					type: "item"
+				}
+				{
+					id: "21D9811A72AD049A"
+					item: "car:birch_body"
+					type: "item"
+				}
+				{
+					id: "400F69701C5C82CA"
+					item: "car:spruce_body"
+					type: "item"
+				}
+				{
+					id: "661A7EE1BF46A550"
+					item: "car:jungle_body"
+					type: "item"
+				}
+				{
+					id: "448C885B19564A44"
+					item: "car:acacia_body"
+					type: "item"
+				}
+				{
+					id: "49D6DFAA51EF2919"
+					item: "car:dark_oak_body"
+					type: "item"
+				}
+			]
+			title: "Wood Car Bodies"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E7558C2936FD3A3"]
+			dependency_requirement: "one_completed"
+			id: "61AEFB0BB1CEC66E"
+			rewards: [{
+				id: "5810A8D81E2C78CD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "12FE27D110B1F0BB"
+					item: "car:oak_bumper"
+					type: "item"
+				}
+				{
+					id: "5626FAABE787131B"
+					item: "car:birch_bumper"
+					type: "item"
+				}
+				{
+					id: "54B258C6715C7F46"
+					item: "car:spruce_bumper"
+					type: "item"
+				}
+				{
+					id: "2DDBFED407D89CA9"
+					item: "car:jungle_bumper"
+					type: "item"
+				}
+				{
+					id: "37ADE25DA76F19C0"
+					item: "car:acacia_bumper"
+					type: "item"
+				}
+				{
+					id: "717035770A4806F3"
+					item: "car:dark_oak_bumper"
+					type: "item"
+				}
+			]
+			title: "Wood Bumpers"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61AEFB0BB1CEC66E"]
+			dependency_requirement: "one_completed"
+			id: "3B378FF63DA8B08D"
+			tasks: [
+				{
+					id: "2EC307F4EDE23D89"
+					item: "car:oak_license_plate_holder"
+					type: "item"
+				}
+				{
+					id: "19F7CD7851CE4BF7"
+					item: "car:birch_license_plate_holder"
+					type: "item"
+				}
+				{
+					id: "6CB7AEFD8880E5C1"
+					item: "car:spruce_license_plate_holder"
+					type: "item"
+				}
+				{
+					id: "05C945416AC18963"
+					item: "car:jungle_license_plate_holder"
+					type: "item"
+				}
+				{
+					id: "3141804DBC6B0296"
+					item: "car:acacia_license_plate_holder"
+					type: "item"
+				}
+				{
+					id: "16AD5CCDBCF9EFD1"
+					item: "car:dark_oak_license_plate_holder"
+					type: "item"
+				}
+			]
+			title: "Wood License Plate Holders"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B378FF63DA8B08D"]
+			id: "63EC7EEF231659AC"
+			rewards: [{
+				id: "41E66AEF0EE3326D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3FBDAFBEEE30FED4"
+					item: "car:engine_3_cylinder"
+					type: "item"
+				}
+				{
+					id: "73BF0B20A47D529F"
+					item: "car:small_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "17847478D5392CFC"
+					item: "car:wheel"
+					type: "item"
+				}
+			]
+			title: "Tank, Engine And Wheels"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63EC7EEF231659AC"]
+			description: ["After building the car workshop, put all the necessary parts into the GUI and select Spawn Car to assemble your car."]
+			icon: "car:big_wheel"
+			id: "7C4BBD2CE39EB727"
+			rewards: [{
+				id: "2D302AF861A65C27"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1915EA87772051C8"
+				title: "Assemble Your Car"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Cars!"
+}

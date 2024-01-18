@@ -1,0 +1,298 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_braindamage"
+	group: "0A38796C37E166F4"
+	id: "1B122578854CC869"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D56B158012DDE5D"]
+			icon: "gtceu:micro_processor_computer"
+			id: "7FED8E70972E1266"
+			rewards: [{
+				id: "7B99D45953ABADA9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "728163C9B739446C"
+				type: "checkmark"
+			}]
+			title: "The Brain Damage Only Grows"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FED8E70972E1266"]
+			id: "2D6316426AC266A4"
+			rewards: [{
+				id: "06E48047AECB11E9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C1A3A1074C8A910"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			title: "Just Enough Assemblers"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6316426AC266A4"]
+			id: "16009D4CB330F8D2"
+			rewards: [
+				{
+					id: "5584E5B8D566B165"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "62943842432BE341"
+					item: "gtceu:micro_processor_computer"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E4133D7BCA94377"
+					item: "gtceu:ev_circuit_assembler"
+					type: "item"
+				}
+				{
+					id: "5B6F3BD5A6D266F6"
+					item: "gtceu:ev_cutter"
+					type: "item"
+				}
+				{
+					id: "38EAA2384066C671"
+					item: "gtceu:ev_laser_engraver"
+					type: "item"
+				}
+				{
+					id: "57A5AB4B6CCA7282"
+					item: "gtceu:ev_lathe"
+					type: "item"
+				}
+				{
+					id: "7D4ACBD659D203B7"
+					item: "gtceu:ev_chemical_reactor"
+					type: "item"
+				}
+				{
+					id: "136E7C601E18CA2F"
+					item: "gtceu:ev_chemical_bath"
+					type: "item"
+				}
+				{
+					id: "6CBED209A132BC72"
+					item: "gtceu:ev_extruder"
+					type: "item"
+				}
+				{
+					id: "6E6D3C5D346BEFAE"
+					item: "gtceu:ev_macerator"
+					type: "item"
+				}
+				{
+					id: "0A073C00D080EDA0"
+					item: "gtceu:ev_centrifuge"
+					type: "item"
+				}
+				{
+					id: "03D0D1028DC44C8B"
+					item: "gtceu:ev_mixer"
+					type: "item"
+				}
+				{
+					id: "2873DC50A99948BF"
+					item: "gtceu:ev_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "7B101E54534CB17F"
+					item: "gtceu:ev_extractor"
+					type: "item"
+				}
+				{
+					id: "399E3B9EBFFFE227"
+					item: "gtceu:ev_arc_furnace"
+					type: "item"
+				}
+				{
+					id: "691FD150AD808AF7"
+					item: "gtceu:ev_alloy_smelter"
+					type: "item"
+				}
+			]
+			title: "EV Machines"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D6316426AC266A4"]
+			description: ["Since you can't go to the Nether through a portal anymore, you'll need to synthisize Netherite in order to progress through space. Once you have a strong enough rocket and better fuel, you'll be able to visit the Nether by going to it's own planet."]
+			id: "4F1405EF80608CED"
+			rewards: [{
+				id: "35DCD995505A2BB5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 4L
+				id: "327485AC92DFD737"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			title: "Synthesizing Netherite"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2D6316426AC266A4"
+				"2FB9B7BC27F9143C"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_2_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "5817FCDCDE0FE24C"
+			rewards: [{
+				id: "109006DDBC042694"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "23180034DBD05567"
+				title: "The New Space Race"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D6316426AC266A4"]
+			id: "34A8640AA69967D0"
+			rewards: [{
+				id: "1C06CF8709D6A908"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "4689BB3A326A1C0A"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "Upgrading To Nichrome Coils"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34A8640AA69967D0"]
+			id: "62626BFAE562E51A"
+			rewards: [{
+				id: "766902DD22A3C570"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0EFAB8DEF1B47C97"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			title: "Polytetrafluoroethylene"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34A8640AA69967D0"]
+			id: "5841BF9EA4B8F3B3"
+			rewards: [{
+				id: "29C0254190FF2895"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75030054E333EBF9"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			title: "Making Tungstensteel Ingots"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"62626BFAE562E51A"
+				"5841BF9EA4B8F3B3"
+			]
+			id: "15B23A48138890E2"
+			rewards: [{
+				id: "1FDA2C410DA88CDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B58083F01DDB886"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15B23A48138890E2"]
+			id: "1790FD7E4EA14294"
+			rewards: [
+				{
+					id: "23DDABFE9FE0A56F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "7162AA69EB69F806"
+					item: "gtceu:micro_processor_mainframe"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4D19423E5F1F40CD"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			title: "From EV To IV"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D6316426AC266A4"]
+			id: "0D4ABEEC0E916526"
+			rewards: [{
+				id: "61D36E9A7A16B9B1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5FD80D72E040DB0E"
+				item: "weather2:weather_deflector"
+				type: "item"
+			}]
+			title: "Deflecting Tornados"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "EV Brain Damage"
+}
